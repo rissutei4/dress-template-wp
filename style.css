@@ -1,0 +1,218 @@
+/*
+Theme Name: Fajna Dress
+Theme URI: https://rissutei4.github.io/Dress-website/
+Author: King Rissutei
+Author URI: @rissutei
+Description: Best theme
+Version: 1.3
+License: GNU General Public License v2 or later
+License URI:
+Text Domain: rissutei2op
+Tags: best website
+*/
+@import url(./assets/css/about-me.css);
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #101010;
+  font-family: 'Alex Brush', cursive; }
+
+h3 {
+  font-weight: 600; }
+
+p {
+  font-weight: 500; }
+
+li p {
+  font-weight: 300; }
+
+h4 {
+  font-weight: 400; }
+
+.CarouselSection {
+  margin-bottom: 151px; }
+  .CarouselSection .owl-carousel .slide {
+    transform: rotate(-360deg); }
+    .CarouselSection .owl-carousel .slide.secondsl .row {
+      padding-top: 43px;
+      padding-bottom: 43px; }
+    .CarouselSection .owl-carousel .slide .leftSlidePart .slideHeading {
+      max-width: 538px; }
+      .CarouselSection .owl-carousel .slide .leftSlidePart .slideHeading h3 {
+        color: #F6FCFB;
+        margin-bottom: 72px; }
+      .CarouselSection .owl-carousel .slide .leftSlidePart .slideHeading p {
+        color: #FAEFEF;
+        margin-bottom: 123px; }
+      .CarouselSection .owl-carousel .slide .leftSlidePart .slideHeading .moreBtn {
+        color: #FFFAFA;
+        border: 1px solid #81D8D0;
+        border-radius: 50px;
+        padding: 15px 70px 15px 70px;
+        transition: linear 300ms; }
+        .CarouselSection .owl-carousel .slide .leftSlidePart .slideHeading .moreBtn:hover {
+          background-color: #81d8d0;
+          text-decoration: none; }
+    .CarouselSection .owl-carousel .slide .rightSlidePart {
+      position: relative; }
+      .CarouselSection .owl-carousel .slide .rightSlidePart .gradientBlock {
+        position: absolute;
+        top: 25%;
+        right: 27%;
+        z-index: 0;
+        background: rgba(255, 253, 253, 0.49);
+        filter: blur(107.5px);
+        width: 250px;
+        height: 250px; }
+      .CarouselSection .owl-carousel .slide .rightSlidePart .modelImage {
+        position: relative;
+        z-index: 1;
+        height: 569px;
+        margin-top: 29px; }
+      .CarouselSection .owl-carousel .slide .rightSlidePart .buyButton .circle {
+        position: absolute;
+        width: 264px;
+        height: 264px;
+        top: 50%;
+        left: 55%;
+        z-index: 4;
+        background: #81D8D08F;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        transition: 0.3s linear;
+        font-weight: 600; }
+        .CarouselSection .owl-carousel .slide .rightSlidePart .buyButton .circle:hover {
+          background: rgba(129, 216, 208, 0.75); }
+          .CarouselSection .owl-carousel .slide .rightSlidePart .buyButton .circle:hover a {
+            text-decoration: none;
+            transform: scale(1.5); }
+        .CarouselSection .owl-carousel .slide .rightSlidePart .buyButton .circle a {
+          color: #FFFFFF;
+          font-size: 25px;
+          text-align: center;
+          transition: 0.5s ease-in-out; }
+  .CarouselSection .owl-carousel .owl-dots {
+    transform: rotate(90deg);
+    position: absolute;
+    left: -7%;
+    bottom: 54%; }
+    .CarouselSection .owl-carousel .owl-dots span {
+      width: 14px;
+      height: 14px;
+      background-color: transparent;
+      border-radius: 50%;
+      border: 1px solid #FFFEFE;
+      display: inline-block;
+      transition: 0.3s; }
+    .CarouselSection .owl-carousel .owl-dots .active span {
+      background-color: #81D8D0;
+      border: 1px solid #FFFEFE;
+      width: 14px;
+      height: 14px;
+      display: inline-block;
+      text-align: center; }
+    .CarouselSection .owl-carousel .owl-dots button:nth-child(2) {
+      margin: 0 0 0 99px; }
+    .CarouselSection .owl-carousel .owl-dots button:nth-child(3) {
+      margin: 0 99px 0 99px; }
+
+.ItemsInStock .container .filters-mobile {
+  display: none; }
+.ItemsInStock .container ul {
+  margin-bottom: 52px !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+  .ItemsInStock .container ul li.nav-item {
+    margin-right: 78px; }
+    .ItemsInStock .container ul li.nav-item:last-of-type {
+      margin-right: 0; }
+    .ItemsInStock .container ul li.nav-item button.nav-link {
+      background-color: transparent;
+      border-radius: 0;
+      color: #FFFFFF;
+      border-bottom: 1px solid #FFFFFF;
+      transition: 0.3s linear; }
+      .ItemsInStock .container ul li.nav-item button.nav-link.active {
+        background-color: transparent;
+        border-radius: 0;
+        padding-bottom: 0;
+        border-bottom: 1px solid #0DFCE6; }
+.ItemsInStock .container #pills-tabContent {
+  margin-bottom: 190px; }
+  .ItemsInStock .container #pills-tabContent .product-cards-cont p.no-products-message {
+    color: #FFFFFF; }
+  .ItemsInStock .container #pills-tabContent .product-cards-cont .product-card {
+    position: relative;
+    margin-bottom: 125px;
+    height: 520px; }
+    .ItemsInStock .container #pills-tabContent .product-cards-cont .product-card.hidden-prod {
+      display: none; }
+    .ItemsInStock .container #pills-tabContent .product-cards-cont .product-card .shownCards {
+      display: block; }
+    .ItemsInStock .container #pills-tabContent .product-cards-cont .product-card:hover .product-overlay {
+      opacity: 1; }
+    .ItemsInStock .container #pills-tabContent .product-cards-cont .product-card .product-image {
+      max-width: 340px;
+      position: relative;
+      width: 100%;
+      height: 520px;
+      overflow: hidden; }
+      .ItemsInStock .container #pills-tabContent .product-cards-cont .product-card .product-image img {
+        object-fit: cover;
+        object-position: center;
+        width: 100%;
+        height: 100%; }
+    .ItemsInStock .container #pills-tabContent .product-cards-cont .product-card .product-overlay {
+      width: 100%;
+      position: absolute;
+      top: 60%;
+      padding: 18px 30px;
+      background: #101010C2;
+      opacity: 0;
+      color: white;
+      height: 40%;
+      transition: opacity 0.4s ease-in-out; }
+      .ItemsInStock .container #pills-tabContent .product-cards-cont .product-card .product-overlay .product-heading {
+        max-width: 100%;
+        margin-bottom: 15px; }
+        .ItemsInStock .container #pills-tabContent .product-cards-cont .product-card .product-overlay .product-heading p {
+          margin-bottom: 5px !important;
+          color: #5E5E5E; }
+        .ItemsInStock .container #pills-tabContent .product-cards-cont .product-card .product-overlay .product-heading h4 {
+          color: #FFF9F9; }
+      .ItemsInStock .container #pills-tabContent .product-cards-cont .product-card .product-overlay .price-sizes-container .price p {
+        font-size: 13px;
+        font-weight: 300; }
+      .ItemsInStock .container #pills-tabContent .product-cards-cont .product-card .product-overlay .price-sizes-container .divider {
+        border-left: 1px solid #FFF9F9; }
+      .ItemsInStock .container #pills-tabContent .product-cards-cont .product-card .product-overlay .price-sizes-container .sizes {
+        padding-left: 20px; }
+        .ItemsInStock .container #pills-tabContent .product-cards-cont .product-card .product-overlay .price-sizes-container .sizes h4 {
+          font-size: 16px;
+          margin-bottom: 14px;
+          color: #5E5E5E; }
+        .ItemsInStock .container #pills-tabContent .product-cards-cont .product-card .product-overlay .price-sizes-container .sizes ul {
+          list-style-type: none;
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: row;
+          padding-left: 0 !important;
+          margin-bottom: 0 !important; }
+          .ItemsInStock .container #pills-tabContent .product-cards-cont .product-card .product-overlay .price-sizes-container .sizes ul li {
+            margin-right: 14px;
+            max-height: 22px; }
+  .ItemsInStock .container #pills-tabContent button.load-more {
+    background-color: transparent;
+    padding: 8px 12px;
+    color: #FFF9F9;
+    border: 1px solid #81D8D0;
+    text-transform: uppercase;
+    transition: 0.5s linear; }
+    .ItemsInStock .container #pills-tabContent button.load-more:hover {
+      background-color: #81D8D0; }
+
+/*# sourceMappingURL=style.css.map */
